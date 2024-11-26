@@ -1,0 +1,8 @@
+# Ignore the 'Figures' folder
+Figs/
+
+# Ignore the 'runs' folder
+runs/
+
+# Ignore the 'Results' folder
+Results/

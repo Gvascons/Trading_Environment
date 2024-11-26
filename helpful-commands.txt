@@ -1,0 +1,33 @@
+tensorboard --logdir=runs
+
+python main.py -strategy TDQN -stock Google
+python main.py -strategy TDQN -stock Apple
+python main.py -strategy TDQN -stock Facebook
+python main.py -strategy TDQN -stock Amazon
+python main.py -strategy TDQN -stock Microsoft
+python main.py -strategy TDQN -stock Twitter
+python main.py -strategy TDQN -stock Nokia
+python main.py -strategy TDQN -stock Philips
+python main.py -strategy TDQN -stock Sony
+python main.py -strategy TDQN -stock Shell
+python main.py -strategy TDQN -stock Tesla
+python main.py -strategy TDQN -stock Volkswagen
+python main.py -strategy TDQN -stock Toyota
+python main.py -strategy PPO -stock Google
+python main.py -strategy PPO -stock Apple
+python main.py -strategy PPO -stock Facebook
+python main.py -strategy PPO -stock Amazon
+python main.py -strategy PPO -stock Microsoft
+python main.py -strategy PPO -stock Twitter
+python main.py -strategy PPO -stock Nokia
+python main.py -strategy PPO -stock Philips
+python main.py -strategy PPO -stock Sony
+python main.py -strategy PPO -stock Shell
+python main.py -strategy PPO -stock Tesla
+python main.py -strategy PPO -stock Volkswagen
+python main.py -strategy PPO -stock Toyota
+ 
+
+python main.py -strategy TDQN -stock Apple
+python main.py -strategy PPO -stock Apple
+ 
